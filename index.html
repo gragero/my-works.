@@ -6,13 +6,13 @@
   <meta name="description" content="anything">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>My Web Page</title>
-  <link rel="icon" href="./Space_306159347_OP-2361939831.jpg" type="image/x-icon">
+  <link rel="icon" href="Space_306159347_OP-2361939831.jpg" type="image/x-icon">
 
 </head>
 
-<body>
+<>
   
-<main>
+<>
   <header>
     <section id="top-web"></section>
       <h2>yoooooooooo</h2>
@@ -59,10 +59,20 @@
     <p>
       <label for="password">password: </label>
       <input type="password" name="password" placeholder="enter the password" id="password" required="true">
-    </p>  
-      <button>sign up!</button>
-    </section>
-  </form>
+    </p> 
+    
+    <p>
+      <label for="phone">Tel: </label>
+      <input type="phone" name="phone" placeholder="555-555-5555" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="true">
+    </p>
+    <p>
+      <label for="decade">Favourite Decade: </label>
+      <input type="decade" name="decade" id="decade" min="1900" max="2020" step="10" value="1990" required="true">
+    </p>
+    
+    <button>sign up!</button>
+  </section>
+</form>
 
   <br>
   <div style="background: rgb(144, 238, 233);">element</div>
@@ -144,7 +154,48 @@
   <br><br>
 
   <del>Aba <dfn>Hgag</dfn></del><br>
-  <dfn>elgamed</dfn>
+  <dfn>elgamed</dfn> <br><br>
+ <fieldset>
+    <legend>personal infos:</legend>
+  <label for="coffee">Favourite Coffee: </label>
+  <select name="coffee" id="coffee">
+    <optgroup label="coffees">
+      <option value="hot">Hot</option>
+      <option value="iced">Iced</option>
+      <option value="extra hot">Extra Hot</option>
+      <option value="other">Other...</option>
+    </optgroup>
+  </select> <br>
+
+  <label for="teas">Favourite Tea: </label>
+  <select name="teas" id="teas" multiple size="1">
+    <optgroup label="teas">
+      <option value="black">Black</option>
+      <option value="green">Green</option>
+      <option value="herbal">Herbal</option>
+      <option value="other tea">Other...</option>
+    </optgroup>
+  </select> <br> 
+
+  <label for="adds-sizes">Adds and Sizes: </label>
+  <select name="adds-sizes" id="adds-sizes"> 
+    <optgroup label="Adds">
+      <option value="no foam">No foam</option>
+      <option value="extra foam">Extra foam</option>
+      <option value="whipped cream">Whipped cream</option>
+      <option value="other">Other...</option>
+    </optgroup>
+    </select> <br>
+
+  <label for="sizes">Sizes: </label>
+    <select name="sizes" id="sizes"> 
+    <optgroup label="sizes">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+      <option value="extra large">Extra Large</option>
+    </optgroup>
+  </select> <br><br>
 
   <details>
     <summary>infos</summary>
@@ -153,9 +204,9 @@
       and took <time datetime="PT10M">10 minutes </time>to get ready to go to school.
     </p>
   </details>
-<aside>
+
   <section id="search">
-    <input list="browsers">
+    <input type="text" name="browsers" id="browserss" list="browsers">
     <datalist id="browsers">
       <option value="option">
       <option value="fire fox">
@@ -163,6 +214,10 @@
       <option value="falkon">
     </datalist>
   </section>
+ </fieldset>
+ <br>
+
+
 </aside>
   <div>
     <canvas id="c"></canvas>
