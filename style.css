@@ -1,0 +1,77 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+  font-family: font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: rgb(8, 212, 52);
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(26, 95, 24);
+}
+
+a:active {
+  color: rgb(255, 0, 0);
+}
+
+table, th, tr, td,thead, tbody{
+  border: 2px solid gray;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:aqua;
+}
+
+caption {
+  font-size: 1.5em;
+  border: gray 2px solid;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: brown;
+  background-color: rgb(255, 238, 0);
+}
+
+    .bg {
+      background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.ZDNmaspw9ceN__qAta9yXAHaEK%3Fpid%3DApi&f=1&ipt=dd10e3a99de5632bceb03b861125507847d31056dc4f6bd77062b0bd2e3d31c6&ipo=images");
+      background-repeat: no-repeat;
+      height: 280px;
+    }
+    .highlight {
+      background: rgb(51, 148, 21);
+    }
+    h1 {
+      color: rgb(138, 43, 226);
+    }
+    #intro {
+      font-size: 5em;
+    }
+
+    .welcome {
+      text-align: center;
+      height: 60px;
+    }
+
+    .yoo {
+      font-size: 30px;
+      text-align: center;
+      height: 25px;
+    }
+
+    .anything {
+      text-align: center;
+      font-size: 20px;
+    }
+
+
+    

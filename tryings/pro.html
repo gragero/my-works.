@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقع تجريبي متكامل</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+
+    header, nav, section, article, aside, footer {
+      padding: 20px;
+      margin: 10px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      margin-right: 15px;
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    img, video, audio {
+      display: block;
+      margin: 15px 0;
+      max-width: 100%;
+    }
+
+    .highlight {
+      color: crimson;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      gap: 15px;
+    }
+
+    .main-content {
+      width: 70%;
+    }
+
+    aside {
+      width: 25%;
+      background: #f0f0f0;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1>موقعي الأول بـ HTML</h1>
+    <p>مثال شامل على الدروس الثلاثة الأولى</p>
+  </header>
+
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">من أنا</a>
+    <a href="#media">الوسائط</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+
+  <div class="container">
+
+    <section class="main-content" id="home">
+      <h2>مرحبًا بكم</h2>
+      <p>
+        هذا نص تجريبي في فقرة <span class="highlight">باستخدام span</span> لتمييز كلمة معينة.
+      </p>
+
+      <article>
+        <h3>معلومات مهمة</h3>
+        <p>في الدروس السابقة تعلمنا كيفية كتابة النصوص والعناوين والروابط والصور والفيديو والصوت.</p>
+      </article>
+
+      <section id="media">
+        <h3>قسم الوسائط</h3>
+
+        <img src="image.jpg" alt="صورة تجريبية">
+
+        <video src="video.mp4" controls width="400"></video>
+
+        <audio src="audio.mp3" controls></audio>
+
+        <p>للمزيد اضغط هنا:  
+          <a href="https://example.com" target="_blank">رابط خارجي</a>
+        </p>
+      </section>
+    </section>
+
+    <aside>
+      <h4>معلومات جانبية</h4>
+      <p>هذا مثال على aside وهو جزء جانبي من الصفحة.</p>
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>© 2025 — صفحة تجريبية للتعليم</p>
+  </footer>
+
+</body>
+</html>
